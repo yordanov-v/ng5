@@ -1,0 +1,10 @@
+
+<p class="sm">This is what about the About is!! </p>	
+<form>
+	<input type="submit" class="btn" [value]="btnText"  (click)="sendMeHome()" >
+</form>	
+<ul>
+	<li *ngFor="let goal of goals"> 
+		{{goal}}
+	</li>
+</ul>
